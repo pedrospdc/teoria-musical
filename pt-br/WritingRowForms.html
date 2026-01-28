@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html data-darkmode="disabled" dir="ltr" lang="pt-BR">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:book="https://ogp.me/ns/book#" xmlns:og="http://ogp.me/ns#">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Writing Row Forms</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css"/>
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css"/>
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta content="Authored in PreTeXt" name="Keywords"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="book" property="og:type"/>
+<meta content="Teoria Musical para a Sala de Aula do Seculo XXI" property="book:title"/>
+<meta content="Robert Hutchinson" property="book:author"/>
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.8';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link href="_static/prefix-723.3bccd435914aa0ff.css" rel="stylesheet" type="text/css"/>
+<link href="_static/prefix-runestone.8141ae22fd347e48.css" rel="stylesheet" type="text/css"/>
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script crossorigin="anonymous" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script><script async="" src="lunr-pretext-search-index.js"></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header class="ptx-masthead" id="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="MusicTheory.html"><span class="title">Music Theory for the 21st-Century Classroom</span></a></h1>
+<p class="byline">Robert Hutchinson</p>
+</div></div></header><nav class="ptx-navbar navbar" id="ptx-navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-4.html" title="Index"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button class="searchbutton button" id="searchbutton" title="Search book" type="button"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Search Book</span></button></div>
+<div class="searchresultsplaceholder" id="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" class="ptxsearch" id="ptxsearch" name="terms" placeholder="Search term" type="text"/><button class="closesearchresults" id="closesearchresults" title="Close search"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div class="searchempty" id="searchempty"><span>No results.</span></div>
+<ol class="searchresults" id="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"></span><span class="treebuttons"><a class="previous-button button" href="DeterminingRowForms.html" title="Previous"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Prev</span></a><a class="up-button button" href="Serialism.html" title="Up"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Up</span></a><a class="next-button button" href="Serialism-6.html" title="Next"><span class="name">Next</span><span aria-hidden="true" class="icon material-symbols-outlined"></span></a></span>
+</div></nav><div class="hidden-content process-math" id="latex-macros" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div class="ptx-sidebar" id="ptx-sidebar"><nav class="ptx-toc depth2 focused" data-max-levels="2" data-preexpanded-levels="0" id="ptx-toc"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a class="internal" href="frontmatter.html"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a class="internal" href="frontmatter-3.html"><span class="title">Colofao</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a class="internal" href="frontmatter-4.html"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a class="internal" href="frontmatter-5.html"><span class="title">Preface</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="BasicConcepts.html"><span class="codenumber">1</span> <span class="title">Basic Concepts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Pitch.html"><span class="codenumber">1.1</span> <span class="title">Pitch</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Notation.html"><span class="codenumber">1.2</span> <span class="title">Notation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="OctaveRegisters.html"><span class="codenumber">1.3</span> <span class="title">Octave Registers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Accidentals.html"><span class="codenumber">1.4</span> <span class="title">Accidentals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="EnharmonicNotes.html"><span class="codenumber">1.5</span> <span class="title">Enharmonic Notes</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="BasicConceptsPracticeExercises.html"><span class="codenumber">1.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="MajorScalesAndKeySignatures.html"><span class="codenumber">2</span> <span class="title">Major Scales and Key Signatures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HalfStepsAndWholeSteps.html"><span class="codenumber">2.1</span> <span class="title">Half Steps and Whole Steps</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TheMajorScale.html"><span class="codenumber">2.2</span> <span class="title">The Major Scale</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="MajorKeySignatures.html"><span class="codenumber">2.3</span> <span class="title">Major Key Signatures</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MajorKeySignatures.html#MajorKeySignatures-3"><span class="codenumber">2.3.1</span> <span class="title">Identifying Key Signatures</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="MajorKeysPracticeExercises.html"><span class="codenumber">2.4</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="MinorScalesAndKeySignatures.html"><span class="codenumber">3</span> <span class="title">Minor Scales and Key Signatures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="MinorScales.html"><span class="codenumber">3.1</span> <span class="title">Minor Scales</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="MinorKeySignatures.html"><span class="codenumber">3.2</span> <span class="title">Minor Key Signatures</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ScaleDegreeNames.html"><span class="codenumber">3.3</span> <span class="title">Scale Degree Names</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="MinorKeysPracticeExercises.html"><span class="codenumber">3.4</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="BasicsOfRhythm.html"><span class="codenumber">4</span> <span class="title">Basics of Rhythm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TimeSignature.html"><span class="codenumber">4.1</span> <span class="title">Time Signature</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DurationalSymbols.html"><span class="codenumber">4.2</span> <span class="title">Durational Symbols</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DotsAndTies.html"><span class="codenumber">4.3</span> <span class="title">Dots and Ties</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="meter.html"><span class="codenumber">4.4</span> <span class="title">Meter</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Tuplets.html"><span class="codenumber">4.5</span> <span class="title">Tuplets</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="CommonRhythmicNotationErrors.html"><span class="codenumber">4.6</span> <span class="title">Common Rhythmic Notation Errors</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="BasicsOfRhythmPracticeExercises.html"><span class="codenumber">4.7</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="Intervals.html"><span class="codenumber">5</span> <span class="title">Intervals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="IntervalsIntroduction.html"><span class="codenumber">5.1</span> <span class="title">Introduction to Intervals</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="IntervalsIntroduction.html#NumericSizeOfInterval"><span class="codenumber">5.1.1</span> <span class="title">Numeric Size of Interval</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="IntervalsIntroduction.html#IntervalQuality"><span class="codenumber">5.1.2</span> <span class="title">Interval Quality: Perfect versus Major/Minor</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HowToIdentifyIntervals.html"><span class="codenumber">5.2</span> <span class="title">How to Identify Perfect, Major, and Minor Intervals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HowToWriteIntervals.html"><span class="codenumber">5.3</span> <span class="title">How to Write Perfect, Major, and Minor Intervals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="InversionOfIntervals.html"><span class="codenumber">5.4</span> <span class="title">Inversion of Intervals Explained</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AugmentedAndDiminishedIntervals.html"><span class="codenumber">5.5</span> <span class="title">Augmented and Diminished Intervals</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="IntervalsPracticeExercises.html"><span class="codenumber">5.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="Triads.html"><span class="codenumber">6</span> <span class="title">Triads</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TriadsIntroduction.html"><span class="codenumber">6.1</span> <span class="title">Introduction to Triads</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="LeadSheetSymbols.html"><span class="codenumber">6.2</span> <span class="title">Lead-Sheet Symbols</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="InvertedTriads.html"><span class="codenumber">6.3</span> <span class="title">Inverted Triads</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="InvertedTriads.html#SlashChords"><span class="codenumber">6.3.1</span> <span class="title">"Slash" Chords</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AnalyzingChords.html"><span class="codenumber">6.4</span> <span class="title">Analyzing Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SimpleSusChords.html"><span class="codenumber">6.5</span> <span class="title">Simple “Sus” Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SummaryOfTriadConstruction.html"><span class="codenumber">6.6</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="TriadsPracticeExercises.html"><span class="codenumber">6.7</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="RomanNumeralsAndCadences.html"><span class="codenumber">7</span> <span class="title">Roman Numerals and Cadences</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="RomanNumeralChordSymbols.html"><span class="codenumber">7.1</span> <span class="title">Roman Numeral Chord Symbols</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DiatonicChordsInMajor.html"><span class="codenumber">7.2</span> <span class="title">Diatonic Chords in Major</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DiatonicChordsInMinor.html"><span class="codenumber">7.3</span> <span class="title">Diatonic Chords in Minor</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="cadences.html"><span class="codenumber">7.4</span> <span class="title">Cadences</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="cadences.html#AuthenticCadenceExamples"><span class="codenumber">7.4.1</span> <span class="title">Examples of Authentic Cadences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="cadences.html#PlagalCadenceExamples"><span class="codenumber">7.4.2</span> <span class="title">Examples of Plagal Cadences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="cadences.html#DeceptiveCadenceExamples"><span class="codenumber">7.4.3</span> <span class="title">Examples of Deceptive Cadences</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="cadences.html#HalfCadenceExamples"><span class="codenumber">7.4.4</span> <span class="title">Examples of Half Cadences</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="RomanNumeralPracticeExercises.html"><span class="codenumber">7.5</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="SeventhChords.html"><span class="codenumber">8</span> <span class="title">Seventh Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SeventhChordsIntroduction.html"><span class="codenumber">8.1</span> <span class="title">Introduction to Seventh Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="IVover5SusChord.html"><span class="codenumber">8.2</span> <span class="title">The IV/5 “sus” chord</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="RomanNumeralsOfDiatonicSeventhChords.html"><span class="codenumber">8.3</span> <span class="title">Roman Numerals of Diatonic Seventh Chords</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="SeventhChordsExercises.html"><span class="codenumber">8.4</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="HarmonicProgression.html"><span class="codenumber">9</span> <span class="title">Harmonic Progression and Harmonic Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="CircleOfFifths.html"><span class="codenumber">9.1</span> <span class="title">The Circle of Fifths Progression</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HarmonicRhythm.html"><span class="codenumber">9.2</span> <span class="title">Harmonic Rhythm</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ShorterProgressionsFromTheCircleOfFifths.html"><span class="codenumber">9.3</span> <span class="title">Shorter Progressions from the Circle of Fifths</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ShorterProgressionsFromTheCircleOfFifths.html#II-V-I"><span class="codenumber">9.3.1</span> <span class="title">II-V-I</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a class="internal" href="ShorterProgressionsFromTheCircleOfFifths.html#VI-II-V-I"><span class="codenumber">9.3.2</span> <span class="title">VI-II-V-I</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="ShorterProgressionsFromTheCircleOfFifths.html#vi-ii-V-I"><span class="codenumber">9.3.2.1</span> <span class="title">vi-ii-V-I</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="ShorterProgressionsFromTheCircleOfFifths.html#I-vi-ii-V"><span class="codenumber">9.3.2.2</span> <span class="title">I-vi-ii-V</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="ShorterProgressionsFromTheCircleOfFifths.html#ii-V-I-vi"><span class="codenumber">9.3.2.3</span> <span class="title">ii-V-I-vi</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ShorterProgressionsFromTheCircleOfFifths.html#III-VI-II-V"><span class="codenumber">9.3.3</span> <span class="title">III-VI-II-V</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="HarmonicFunction.html"><span class="codenumber">9.4</span> <span class="title">Harmonic Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="HarmonicFunction.html#HarmonicFlowchart"><span class="codenumber">9.4.1</span> <span class="title">The Harmonic Flowchart</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="HarmonicFunction.html#TonicDominantTonicProgression"><span class="codenumber">9.4.2</span> <span class="title">Tonic-Dominant-Tonic Progression</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="HarmonicFunction.html#TonicPredominantDominantTonicProgression"><span class="codenumber">9.4.3</span> <span class="title">Tonic-PreDominant-Dominant-Tonic Progression</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a class="internal" href="HarmonicFunction.html#tonic-tonprol-predom-dom"><span class="codenumber">9.4.4</span> <span class="title">The Tonic-Tonic Prolongation-PreDominant-Dominant Progression</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="HarmonicFunction.html#I-vi-IV-V"><span class="codenumber">9.4.4.1</span> <span class="title">I–vi–IV–V</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ExceptionsCreatedBySequences.html"><span class="codenumber">9.5</span> <span class="title">Exceptions Created by Harmonic Sequences</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SubtonicVIIinPopMusic.html"><span class="codenumber">9.6</span> <span class="title">The Subtonic VII Chord in Popular Music</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="BestsellerProgression.html"><span class="codenumber">9.7</span> <span class="title">The Best-Seller Progression</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="i-VII-VI-VII.html"><span class="codenumber">9.8</span> <span class="title">The i–VII–VI–VII Progression</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="HarmonicProgressionExercises.html"><span class="codenumber">9.9</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="NonChordTones.html"><span class="codenumber">10</span> <span class="title">Non-Chord Tones</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="NonChordTonesIntroduction.html"><span class="codenumber">10.1</span> <span class="title">Introduction to Non-Chord Tones</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="PassingTones.html"><span class="codenumber">10.2</span> <span class="title">Passing Tones</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="NeighborTones.html"><span class="codenumber">10.3</span> <span class="title">Neighbor Tones</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Appoggiatura.html"><span class="codenumber">10.4</span> <span class="title">Appoggiatura</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="EscapeTone.html"><span class="codenumber">10.5</span> <span class="title">Escape Tone</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DoubleNeighbor.html"><span class="codenumber">10.6</span> <span class="title">Double Neighbor</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Anticipation.html"><span class="codenumber">10.7</span> <span class="title">Anticipation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="PedalPoint.html"><span class="codenumber">10.8</span> <span class="title">Pedal Point</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Suspension.html"><span class="codenumber">10.9</span> <span class="title">Suspension</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Retardation.html"><span class="codenumber">10.10</span> <span class="title">Retardation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="IncompleteNeighbor.html"><span class="codenumber">10.11</span> <span class="title">Incomplete Neighbor</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="NonChordTonesPracticeExercises.html"><span class="codenumber">10.12</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="MelodicAnalysis.html"><span class="codenumber">11</span> <span class="title">Melodic Analysis</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="MotiveSection.html"><span class="codenumber">11.1</span> <span class="title">Motive</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="MelodicAlteration.html"><span class="codenumber">11.2</span> <span class="title">Melodic Alteration</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MelodicAlteration.html#InversionSection"><span class="codenumber">11.2.1</span> <span class="title">Inversion</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MelodicAlteration.html#IntervallicChange"><span class="codenumber">11.2.2</span> <span class="title">Intervallic Change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MelodicAlteration.html#AugmentationAndDiminution"><span class="codenumber">11.2.3</span> <span class="title">Augmentation and Diminution</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MelodicAlteration.html#RhythmicChange"><span class="codenumber">11.2.4</span> <span class="title">Rhythmic Change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MelodicAlteration.html#OrnamentationSection"><span class="codenumber">11.2.5</span> <span class="title">Ornamentation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MelodicAlteration.html#ExtensionSection"><span class="codenumber">11.2.6</span> <span class="title">Extension</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="MelodicAlteration.html#RetrogradeSection"><span class="codenumber">11.2.7</span> <span class="title">Retrograde</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FragmentSection.html"><span class="codenumber">11.3</span> <span class="title">Fragment</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="PhraseSection.html"><span class="codenumber">11.4</span> <span class="title">Phrase</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="subphrase.html"><span class="codenumber">11.5</span> <span class="title">Subphrase</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="MelodicAnalysisPracticeExercises.html"><span class="codenumber">11.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="FormInPopularMusic.html"><span class="codenumber">12</span> <span class="title">Form in Popular Music</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VerseChorusForm.html"><span class="codenumber">12.1</span> <span class="title">Verse-Chorus Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AABAForm.html"><span class="codenumber">12.2</span> <span class="title">AABA Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ABACForm.html"><span class="codenumber">12.3</span> <span class="title">ABAC Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TwelveBarBlues.html"><span class="codenumber">12.4</span> <span class="title">The 12-Bar Blues</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HarmonicallyClosedAndOpenSections.html"><span class="codenumber">12.5</span> <span class="title">Harmonically Closed and Open Sections</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="PopFormPracticeExercises.html"><span class="codenumber">12.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="PhrasesInCombination.html"><span class="codenumber">13</span> <span class="title">Phrases in Combination</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="PerfectAuthenticCadence.html"><span class="codenumber">13.1</span> <span class="title">The Perfect Authentic Cadence</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SentenceStructure.html"><span class="codenumber">13.2</span> <span class="title">The Sentence</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="PeriodForm.html"><span class="codenumber">13.3</span> <span class="title">The Period</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="PeriodForm.html#ConclusivenessOfCadence"><span class="codenumber">13.3.1</span> <span class="title">Conclusiveness of Cadence</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="PeriodForm.html#PeriodExamples"><span class="codenumber">13.3.2</span> <span class="title">Examples of the “Less Conclusive-More Conclusive” Cadential Formula</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="PeriodForm.html#AntecedentsAndConsequents"><span class="codenumber">13.3.3</span> <span class="title">Antecedents and Consequents</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="PeriodForm.html#ParallelAndContrastingPeriods"><span class="codenumber">13.3.4</span> <span class="title">Parallel and Contrasting Periods</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="PeriodForm.html#RepeatedPhrase"><span class="codenumber">13.3.5</span> <span class="title">Repeated Phrase</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AsymmetricalPeriod.html"><span class="codenumber">13.4</span> <span class="title">The Asymmetrical Period</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="DoublePeriodForm.html"><span class="codenumber">13.5</span> <span class="title">The Double Period</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="DoublePeriodForm.html#RepeatedPeriod"><span class="codenumber">13.5.1</span> <span class="title">Repeated Period</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="PhraseGroupsAndPhraseChains.html"><span class="codenumber">13.6</span> <span class="title">Phrase Groups and Phrase Chains</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Elision.html"><span class="codenumber">13.7</span> <span class="title">The Elision</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SummaryOfPhrasesInCombination.html"><span class="codenumber">13.8</span> <span class="title">Summary of Phrases in Combination</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="PhrasesInCombinationPracticeExercises.html"><span class="codenumber">13.9</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="AccompanimentalTexture.html"><span class="codenumber">14</span> <span class="title">Accompanimental Textures</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Texture.html"><span class="codenumber">14.1</span> <span class="title">Texture</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ChoraleTexture.html"><span class="codenumber">14.2</span> <span class="title">Chorale Texture</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ArpeggiatedAccompaniments.html"><span class="codenumber">14.3</span> <span class="title">Arpeggiated Accompaniments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ArpeggiatedAccompaniments.html#Arpeggios"><span class="codenumber">14.3.1</span> <span class="title">Arpeggios</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ArpeggiatedAccompaniments.html#AlbertiBass"><span class="codenumber">14.3.2</span> <span class="title">Alberti Bass</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="BlockChordAccompaniments.html"><span class="codenumber">14.4</span> <span class="title">Block Chord Accompaniments</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="BlockChordAccompaniments.html#One-Two-And"><span class="codenumber">14.4.1</span> <span class="title">The “1 (2) &amp;” Rhythm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="BlockChordAccompaniments.html#WalkingOnSunshineRhythm"><span class="codenumber">14.4.2</span> <span class="title">The “Barbara Ann” Rhythm</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="BlockChordAccompaniments.html#EighthNoteChords"><span class="codenumber">14.4.3</span> <span class="title">Repeated 8th-note Chords</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="BlockChordAccompaniments.html#QuarterNoteChords"><span class="codenumber">14.4.4</span> <span class="title">Repeated Quarter-note Chords</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="AfterbeatsOffbeats.html"><span class="codenumber">14.5</span> <span class="title">Afterbeats and Offbeats</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="AfterbeatsOffbeats.html#Afterbeats"><span class="codenumber">14.5.1</span> <span class="title">Afterbeats</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a class="internal" href="AfterbeatsOffbeats.html#Offbeats"><span class="codenumber">14.5.2</span> <span class="title">Offbeats</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="AfterbeatsOffbeats.html#polka"><span class="codenumber">14.5.2.1</span> <span class="title">Polka</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="AfterbeatsOffbeats.html#Reggae"><span class="codenumber">14.5.2.2</span> <span class="title">Reggae</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ThreeTwoClave.html"><span class="codenumber">14.6</span> <span class="title">The 3–2 Son Clave</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a class="internal" href="ThreeTwoClave.html#ThreePlusThreePlusTwoRhythm"><span class="codenumber">14.6.1</span> <span class="title">The 3+3+2 Rhythm</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="ThreeTwoClave.html#Habanera-and-Reggaeton"><span class="codenumber">14.6.1.1</span> <span class="title">Habanera and Reggaeton</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ThreeTwoClave.html#four-groups-of-three-plus-two-groups-of-two"><span class="codenumber">14.6.2</span> <span class="title">3+3+3+3+2+2</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ThreeTwoClave.html#Eight-Groups-of-Three-Plus-Four-Groups-of-Two"><span class="codenumber">14.6.3</span> <span class="title">8 Groups of 3 Plus 4 Groups of 2</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="ThreeTwoClave.html#Other-Combinations-of-threes-and-twos"><span class="codenumber">14.6.1</span> <span class="title">Other Combinations of 3s and 2s</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="DistinctiveBassLines.html"><span class="codenumber">14.7</span> <span class="title">Distinctive Bass Lines</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="DistinctiveBassLines.html#DistinctiveGuitarRiffs"><span class="codenumber">14.7.1</span> <span class="title">Distinctive Guitar Riffs</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="CreatingContrast.html"><span class="codenumber">15</span> <span class="title">Creating Contrast Between Sections</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="The-Elements-of-Music.html"><span class="codenumber">15.1</span> <span class="title">The Elements of Music</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Eine-kleine-ii.html"><span class="codenumber">15.2</span> <span class="title">Mozart, <span class="booktitle">Eine kleine Nachtmusik</span>, K. 525, II.</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="CreatingContrast-5.html"><span class="codenumber">15.3</span> <span class="title">“Rude” by MAGIC!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="FiguredBass.html"><span class="codenumber">16</span> <span class="title">Figured Bass</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FiguredBassHistoricalContext.html"><span class="codenumber">16.1</span> <span class="title">Historical Context</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FiguredBassInversionSymbols.html"><span class="codenumber">16.2</span> <span class="title">Figured Bass Inversion Symbols</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TheCadentialSixFourChord.html"><span class="codenumber">16.3</span> <span class="title">The Cadential Six-Four Chord</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="OtherOccurrencesofSixFourChords.html"><span class="codenumber">16.4</span> <span class="title">Other Occurrences of Six-Four Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FiguredBassAdditionalInformation.html"><span class="codenumber">16.5</span> <span class="title">Additional Information</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="FiguredBassPracticeExercises.html"><span class="codenumber">16.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="SecondaryDominants.html"><span class="codenumber">17</span> <span class="title">Secondary Dominant Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ExamplesWithSecondaryDominants.html"><span class="codenumber">17.1</span> <span class="title">Examples with Secondary Dominants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Tonicization.html"><span class="codenumber">17.2</span> <span class="title">Tonicization</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SecondaryDominantsInMajorAndMinor.html"><span class="codenumber">17.3</span> <span class="title">Secondary Dominants in Major and Minor</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AnalyzingSecondaryDominants.html"><span class="codenumber">17.4</span> <span class="title">Analyzing Secondary Dominants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="WritingSecondaryDominants.html"><span class="codenumber">17.5</span> <span class="title">Writing Secondary Dominants</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="IrregularResoltionsOfSecondaryDominants.html"><span class="codenumber">17.6</span> <span class="title">Irregular Resolutions of Secondary Chords</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="SecondaryDominantPracticeExercises.html"><span class="codenumber">17.7</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="SecondaryDiminishedChords.html"><span class="codenumber">18</span> <span class="title">Secondary Diminished Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SecondaryDiminishedChordSection.html"><span class="codenumber">18.1</span> <span class="title">Secondary Diminished Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SecondaryDiminishedChordsInMajorAndMinor.html"><span class="codenumber">18.2</span> <span class="title">Secondary Diminished Chords in Major and Minor</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AnalyzingSecondaryDiminishedChords.html"><span class="codenumber">18.3</span> <span class="title">Analyzing Secondary Diminished Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="WritingSecondaryDiminishedChords.html"><span class="codenumber">18.4</span> <span class="title">Writing Secondary Diminished Chords</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="SecondaryDiminishedPracticeExercises.html"><span class="codenumber">18.5</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="ModeMixture.html"><span class="codenumber">19</span> <span class="title">Mode Mixture</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ModeMixtureSection.html"><span class="codenumber">19.1</span> <span class="title">Mode Mixture</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HarmonizationOfBorrowedScaleDegrees.html"><span class="codenumber">19.2</span> <span class="title">Harmonization of Borrowed Scale Degrees</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AnalyzingAndWritingBorrowedChords.html"><span class="codenumber">19.3</span> <span class="title">Analyzing and Writing Borrowed Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TheDeceptiveCadenceWithFlatSix.html"><span class="codenumber">19.4</span> <span class="title">The Deceptive Cadence with ♭<span class="process-math">\(\left.\text{VI}\right.\)</span></span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Picardy3rd.html"><span class="codenumber">19.5</span> <span class="title">The Picardy 3rd</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="ModeMixturePracticeExercises.html"><span class="codenumber">19.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="Neapolitan.html"><span class="codenumber">20</span> <span class="title">The Neapolitan Chord</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="NeapolitanIntroduction.html"><span class="codenumber">20.1</span> <span class="title">The Neapolitan Chord</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ExamplesOfTheNeapolitanChord.html"><span class="codenumber">20.2</span> <span class="title">Examples of the Neapolitan Chord</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="NeapolitanPracticeExercises.html"><span class="codenumber">20.3</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="AugmentedSixthChords.html"><span class="codenumber">21</span> <span class="title">Augmented Sixth Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AugmentedSixthIntroduction.html"><span class="codenumber">21.1</span> <span class="title">Augmented Sixth Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TypesOfAugmentedSixthChords.html"><span class="codenumber">21.2</span> <span class="title">Types of Augmented Sixth Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AnalyzingAugmentedSixthChords.html"><span class="codenumber">21.3</span> <span class="title">Analyzing Augmented Sixth Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="LeadSheetAnalysisOfAugmentedSixthChords.html"><span class="codenumber">21.4</span> <span class="title">Lead-Sheet Analysis of Augmented Sixth Chords</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ExamplesWithAugmentedSixthChords.html"><span class="codenumber">21.5</span> <span class="title">Examples with Augmented Sixth Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ExamplesWithAugmentedSixthChords.html#ExamplesWithAugmentedSixthChords-2"><span class="codenumber">21.5.1</span> <span class="title">The Italian Augmented Sixth Chord</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ExamplesWithAugmentedSixthChords.html#ExamplesWithAugmentedSixthChords-3"><span class="codenumber">21.5.2</span> <span class="title">The French Augmented Sixth Chord</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ExamplesWithAugmentedSixthChords.html#ExamplesWithAugmentedSixthChords-4"><span class="codenumber">21.5.3</span> <span class="title">The German Augmented Sixth Chord</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ExamplesWithAugmentedSixthChords.html#ExamplesWithAugmentedSixthChords-5"><span class="codenumber">21.5.4</span> <span class="title">The Enharmonic German Sixth</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DistinguishingBetweenChromaticHarmonies.html"><span class="codenumber">21.6</span> <span class="title">Distingushing Between Chromatic Harmonies</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DescendingChromaticBassLines.html"><span class="codenumber">21.7</span> <span class="title">Descending Chromatic Bass Lines</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ChromaticPreDominantChords.html"><span class="codenumber">21.8</span> <span class="title">Chromatic Pre-Dominant Chords</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="AugmentedSixthPracticeExercises.html"><span class="codenumber">21.9</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="Modulation.html"><span class="codenumber">22</span> <span class="title">Modulation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ModulationIntroduction.html"><span class="codenumber">22.1</span> <span class="title">Modulation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TonicizationVersusModulation.html"><span class="codenumber">22.2</span> <span class="title">Tonicization versus Modulation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="KeyRelationships.html"><span class="codenumber">22.3</span> <span class="title">Key Relationships</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ModulationsWithDiatonicPivotChords.html"><span class="codenumber">22.4</span> <span class="title">Modulations with Diatonic Pivot Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithDiatonicPivotChords.html#DeterminingDiatonicCommonChords"><span class="codenumber">22.4.1</span> <span class="title">Determining Common Chords Between Keys</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithDiatonicPivotChords.html#HarmonicFunctionsofDiatonicPivotChords"><span class="codenumber">22.4.2</span> <span class="title">Harmonic Functions of Diatonic Pivot Chords</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HowToRecognizeAKeyAfterAModulation.html"><span class="codenumber">22.5</span> <span class="title">How to Recognize a Key After a Modulation</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ModulationsWithChromaticPivotChords.html"><span class="codenumber">22.6</span> <span class="title">Modulations with Chromatic Pivot Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithChromaticPivotChords.html#ModulationsWithChromaticPivotChords-3"><span class="codenumber">22.6.1</span> <span class="title">Secondary Common Chord</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithChromaticPivotChords.html#ModulationsWithChromaticPivotChords-4"><span class="codenumber">22.6.2</span> <span class="title">Borrowed Common Chord</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithChromaticPivotChords.html#ModulationsWithChromaticPivotChords-5"><span class="codenumber">22.6.3</span> <span class="title">Neapolitan Common Chord</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithChromaticPivotChords.html#ModulationsWithChromaticPivotChords-6"><span class="codenumber">22.6.4</span> <span class="title">Augmented Sixth Common Chord</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ModulationsWithoutPivotChords.html"><span class="codenumber">22.7</span> <span class="title">Modulations Without Pivot Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithoutPivotChords.html#DirectModulation"><span class="codenumber">22.7.1</span> <span class="title">Direct Modulation</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a class="internal" href="ModulationsWithoutPivotChords.html#CommonToneModulation"><span class="codenumber">22.7.2</span> <span class="title">Common-Tone Modulation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithoutPivotChords.html#ChromaticMediants"><span class="codenumber">22.7.2.1</span> <span class="title">Chromatic Mediants</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ModulationsWithoutPivotChords.html#SequentialModulation"><span class="codenumber">22.7.3</span> <span class="title">Sequential Modulation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="ModulationPracticeExercises.html"><span class="codenumber">22.8</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="EnharmonicModulation.html"><span class="codenumber">23</span> <span class="title">Enharmonic Modulation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="EnharmonicModulationIntroduction.html"><span class="codenumber">23.1</span> <span class="title">Enharmonic Modulation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TheV7andGer6asPivotChords.html"><span class="codenumber">23.2</span> <span class="title">The V7 and Ger+6 as Pivot Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TheFullyDiminishedSeventhAsPivotChord.html"><span class="codenumber">23.3</span> <span class="title">The Fully Diminished Seventh as Pivot Chord</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="EnharmonicModulationPracticeExercises.html"><span class="codenumber">23.4</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="BinaryAndTernaryForms.html"><span class="codenumber">24</span> <span class="title">Binary and Ternary Forms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="BinaryAndTernaryIntroduction.html"><span class="codenumber">24.1</span> <span class="title">Binary and Ternary Form</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SectionalVersusContinuous.html"><span class="codenumber">24.2</span> <span class="title">Sectional versus Continuous</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="BalancedBinary.html"><span class="codenumber">24.3</span> <span class="title">Balanced Binary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="RoundedBinary.html"><span class="codenumber">24.4</span> <span class="title">Rounded Binary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SimpleBinary.html"><span class="codenumber">24.5</span> <span class="title">Simple Binary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="BinaryPrinciple.html"><span class="codenumber">24.6</span> <span class="title">Binary Principle</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="TernaryForm.html"><span class="codenumber">24.7</span> <span class="title">Ternary Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="TernaryForm.html#CompoundTernary"><span class="codenumber">24.7.1</span> <span class="title">Compound Ternary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="DistinguishingBetweenRoundedBinaryAndTernary.html"><span class="codenumber">24.8</span> <span class="title">Distinguishing between Rounded Binary and Ternary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="DistinguishingBetweenRoundedBinaryAndTernary.html#DistinguishingBetweenRoundedBinaryAndTernary-3"><span class="codenumber">24.8.1</span> <span class="title">Written-Out Repeats</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="BinaryAndTernaryPracticeExercises.html"><span class="codenumber">24.9</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="SonataAndRondoForms.html"><span class="codenumber">25</span> <span class="title">Sonata and Rondo Forms</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="SonataIntroduction.html"><span class="codenumber">25.1</span> <span class="title">Sonata Form</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SonataIntroduction.html#DiagramOfSonataForm"><span class="codenumber">25.1.1</span> <span class="title">Diagram of Sonata Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SonataIntroduction.html#SonatinaForm"><span class="codenumber">25.1.2</span> <span class="title">Sonatina Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SonataIntroduction.html#SonataPrinciple"><span class="codenumber">25.1.3</span> <span class="title">Sonata Principle</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SonataIntroduction.html#MonothematicSonata"><span class="codenumber">25.1.4</span> <span class="title">The Monothematic Sonata</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="FourStructuralFunctions.html"><span class="codenumber">25.2</span> <span class="title">The Four Structural Functions in Music</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="FourStructuralFunctions.html#ExpositoryFunction"><span class="codenumber">25.2.1</span> <span class="title">Expository Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="FourStructuralFunctions.html#TransitionalFunction"><span class="codenumber">25.2.2</span> <span class="title">Transitional Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="FourStructuralFunctions.html#DevelopmentalFunction"><span class="codenumber">25.2.3</span> <span class="title">Developmental Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="FourStructuralFunctions.html#TerminativeFunction"><span class="codenumber">25.2.4</span> <span class="title">Terminative Function</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="RondoForm.html"><span class="codenumber">25.3</span> <span class="title">Rondo Form</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="RondoForm.html#SonataRondoForm"><span class="codenumber">25.3.1</span> <span class="title">Sonata Rondo Form</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="RondoCharacter.html"><span class="codenumber">25.4</span> <span class="title">Rondo Character</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SonataAndRondoForms-6.html"><span class="codenumber">25.5</span> <span class="title">Standard Forms in a Multimovement Classical Piece</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="SonataAndRondoPracticeExercises.html"><span class="codenumber">25.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="VoiceLeadingTriads.html"><span class="codenumber">26</span> <span class="title">Voice Leading Triads</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeading.html"><span class="codenumber">26.1</span> <span class="title">Voice Leading</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TypesOfMotion.html"><span class="codenumber">26.2</span> <span class="title">Types of Motion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ObjectionableParallels.html"><span class="codenumber">26.3</span> <span class="title">Objectionable Parallels</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceRanges.html"><span class="codenumber">26.4</span> <span class="title">Voice Ranges</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="RulesOfMelody.html"><span class="codenumber">26.5</span> <span class="title">Rules of Melody</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="RulesOfSpacing.html"><span class="codenumber">26.6</span> <span class="title">Rules of Spacing</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="VoiceLeadingFourPartsRootPosition.html"><span class="codenumber">26.7</span> <span class="title">Voice Leading Root Position Triads in Four Parts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="VoiceLeadingFourPartsRootPosition.html#root-position-triads-3rd-or-6th"><span class="codenumber">26.7.1</span> <span class="title">Bass movement of the interval of a 3rd or 6th</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="VoiceLeadingFourPartsRootPosition.html#root-position-triads-4th-or-5th"><span class="codenumber">26.7.2</span> <span class="title">Bass movement of the interval of a 4th or 5th</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="VoiceLeadingFourPartsRootPosition.html#root-position-triads-2nd"><span class="codenumber">26.7.3</span> <span class="title">Bass movement of the interval of a 2nd</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="VoiceLeadingFourPartsRootPosition.html#voiceleading-repetition-of-bass-note"><span class="codenumber">26.7.4</span> <span class="title">Repetition of the bass note</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="VoiceLeadingFirstInversionTriads.html"><span class="codenumber">26.8</span> <span class="title">Voice Leading First-Inversion Triads</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="VoiceLeadingFirstInversionTriads.html#VoicingFirstInversion"><span class="codenumber">26.8.1</span> <span class="title">Voicing a First Inversion Chord</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeadingSecondInversionTriads.html"><span class="codenumber">26.9</span> <span class="title">Voice Leading Second Inversion Triads</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SpecialSituations.html"><span class="codenumber">26.10</span> <span class="title">Special Situations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TypesOfSixFourChords.html"><span class="codenumber">26.11</span> <span class="title">Types of Six-Four Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SummaryOfDoublingRules.html"><span class="codenumber">26.12</span> <span class="title">Summary of Doubling Rules for Triads</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="VoiceLeadingTriadsPracticeExercises.html"><span class="codenumber">26.13</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="VoiceLeadingSeventhChords.html"><span class="codenumber">27</span> <span class="title">Voice Leading Seventh Chords</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeadingSeventhChordsIntro.html"><span class="codenumber">27.1</span> <span class="title">Voice Leading Seventh Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SuccessiveSeventhChords.html"><span class="codenumber">27.2</span> <span class="title">Voice Leading Successive Seventh Chords</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="V7toIVoiceLeading.html"><span class="codenumber">27.3</span> <span class="title">Voice Leading the <span class="process-math">\(\left.\text{V}^{7}\right.\)</span> to <span class="process-math">\(\left.\text{I}\right.\)</span> Progression</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="V7toIVoiceLeading.html#I64-V"><span class="codenumber">27.3.1</span> <span class="title">Voice Leading <span class="process-math">\(\left.\text{I}^{6}_{4}\right.\)</span> to <span class="process-math">\(\left.\text{V}^{7}\right.\)</span></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SpecialResolutionOfVII7.html"><span class="codenumber">27.4</span> <span class="title">The Special Resolution of vii<span class="process-math">\(\left.\text{}^{\circ}{}^{7}\right.\)</span> (and vii<span class="process-math">\(\left.\text{}^ø{}^{7}\right.\)</span>)</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="WhenToUseSeventhChords.html"><span class="codenumber">27.5</span> <span class="title">When to Use Seventh Chords</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="VoiceLeading7thChordsPracticeExercises.html"><span class="codenumber">27.6</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="VoiceLeadingNCTs.html"><span class="codenumber">28</span> <span class="title">Voice Leading With Non-Chord Tones</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeadingNCTsIntro.html"><span class="codenumber">28.1</span> <span class="title">Voice Leading With Non-Chord Tones</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AvoidingObjectionableParallels.html"><span class="codenumber">28.2</span> <span class="title">Avoiding Objectionable Parallels</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AddingsNCTs.html"><span class="codenumber">28.3</span> <span class="title">Adding Non-Chord Tones to a Chord Progression</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="VoiceLeadingNCTsPracticeExercises.html"><span class="codenumber">28.4</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="VoiceLeadingChromaticHarmonies.html"><span class="codenumber">29</span> <span class="title">Voice Leading Chromatic Harmonies</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeadingSecondaryChords.html"><span class="codenumber">29.1</span> <span class="title">Voice Leading Secondary Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeadingBorrowedChords.html"><span class="codenumber">29.2</span> <span class="title">Voice Leading Borrowed Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeadingNeapolitanChord.html"><span class="codenumber">29.3</span> <span class="title">Voice Leading the Neapolitan Chord</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="VoiceLeadingAugmentedSixthChords.html"><span class="codenumber">29.4</span> <span class="title">Voice Leading Augmented Sixth Chords</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="VoiceLeadingChromaticHarmoniesExercises.html"><span class="codenumber">29.5</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="IntroductionToCounterpoint.html"><span class="codenumber">30</span> <span class="title">Introduction to Counterpoint</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SpeciesCounterpoint.html"><span class="codenumber">30.1</span> <span class="title">Species Counterpoint</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FirstSpecies.html"><span class="codenumber">30.2</span> <span class="title">First Species Counterpoint</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="SecondSpecies.html"><span class="codenumber">30.3</span> <span class="title">Second Species Counterpoint</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ThirdSpecies.html"><span class="codenumber">30.4</span> <span class="title">Third Species Counterpoint</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FourthSpecies.html"><span class="codenumber">30.5</span> <span class="title">Fourth Species Counterpoint</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FifthSpecies.html"><span class="codenumber">30.6</span> <span class="title">Fifth Species Counterpoint</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="InventionExpositions.html"><span class="codenumber">30.7</span> <span class="title">Invention Expositions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="InventionExpositions.html#WritingInventionExposition"><span class="codenumber">30.7.1</span> <span class="title">How to Write an Invention Exposition</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="InventionExpositions.html#AlteringInventionThemes"><span class="codenumber">30.7.2</span> <span class="title">Altering Themes to Fit the Harmonies</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="InventionExpositions.html#AddingCounterpoint"><span class="codenumber">30.7.3</span> <span class="title">Adding Counterpoint to the Theme Statements</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="FugueAnalysis.html"><span class="codenumber">30.8</span> <span class="title">Fugue Analysis</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="IntroductionToCounterpointExercises.html"><span class="codenumber">30.9</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="IntroductionToJazzTheory.html"><span class="codenumber">31</span> <span class="title">Introduction to Jazz Theory</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="JazzChordBasics.html"><span class="codenumber">31.1</span> <span class="title">Jazz Chord Basics</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ChordSymbolSpecifics.html"><span class="codenumber">31.2</span> <span class="title">Chord Symbol Specifics</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AlteredDominantSeventhChords.html"><span class="codenumber">31.3</span> <span class="title">Altered Dominant Seventh Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ChordLabels.html"><span class="codenumber">31.4</span> <span class="title">Chord Labels</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HowToWriteJazzChords.html"><span class="codenumber">31.5</span> <span class="title">How to Write Jazz Chords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="HowToAnalyzeJazzChords.html"><span class="codenumber">31.6</span> <span class="title">How to Analyze Jazz Chords</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="JazzChordVoicings.html"><span class="codenumber">31.7</span> <span class="title">Jazz Chord Voicings</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="JazzChordVoicings.html#GuideTones"><span class="codenumber">31.7.1</span> <span class="title">Guide Tones</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="JazzChordVoicings.html#JazzVoicings"><span class="codenumber">31.7.2</span> <span class="title">Jazz Chord Voicings</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="StandardChordProgressions.html"><span class="codenumber">31.8</span> <span class="title">Standard Chord Progressions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="StandardChordProgressions.html#StandardChordProgressions-3"><span class="codenumber">31.8.1</span> <span class="title">II–V–I</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="StandardChordProgressions.html#turnaround-progression"><span class="codenumber">31.8.2</span> <span class="title">III–VI–II–V</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="StandardChordProgressions.html#StandardChordProgressions-5"><span class="codenumber">31.8.3</span> <span class="title">The Blues Progression</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="JazzScales.html"><span class="codenumber">31.9</span> <span class="title">Scales</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="JazzScales.html#JazzScales-3"><span class="codenumber">31.9.1</span> <span class="title">The Blues Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="JazzScales.html#JazzScales-4"><span class="codenumber">31.9.2</span> <span class="title">The Bebop Scale</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="JazzScales.html#TableOfScales"><span class="codenumber">31.9.3</span> <span class="title">Table of Scales</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="HowToDetermineChord-ScaleRelationships.html"><span class="codenumber">31.10</span> <span class="title">How to Determine Chord-Scale Relationships</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="HowToDetermineChord-ScaleRelationships.html#HowToDetermineChord-ScaleRelationships-3"><span class="codenumber">31.10.1</span> <span class="title">List of Chord-Scale Relationships</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="harmonizing-bebop-scale.html"><span class="codenumber">31.11</span> <span class="title">Harmonizing the Bebop Scale</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="JazzExercises.html"><span class="codenumber">31.12</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="ImpressionismAndExtendedTonality.html"><span class="codenumber">32</span> <span class="title">Impressionismo e Tonalidade Expandida</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Impressionism.html"><span class="codenumber">32.1</span> <span class="title">Impressionismo</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Pandiatonicism.html"><span class="codenumber">32.2</span> <span class="title">Pandiatonismo</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="QuintalHarmony.html"><span class="codenumber">32.3</span> <span class="title">Harmonia Quartal, Quintal e Secundal</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="polychords.html"><span class="codenumber">32.4</span> <span class="title">Poliacordes</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="Impressionism-Practice-Exercises.html"><span class="codenumber">32.5</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="SetTheory.html"><span class="codenumber">33</span> <span class="title">Teoria dos Conjuntos</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="SetTheorySection.html"><span class="codenumber">33.1</span> <span class="title">Teoria dos Conjuntos</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SetTheorySection.html#AtonalMusic"><span class="codenumber">33.1.1</span> <span class="title">Atonal Music</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SetTheorySection.html#IntegerNotationForPitches"><span class="codenumber">33.1.2</span> <span class="title">Integer Notation for Pitches</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SetTheorySection.html#IntegerNotationForIntervals"><span class="codenumber">33.1.3</span> <span class="title">Integer Notation for Intervals</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="SetTheorySection.html#PitchClassSets"><span class="codenumber">33.1.4</span> <span class="title">Pitch-Class Sets</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="NormalForm.html"><span class="codenumber">33.2</span> <span class="title">Forma Normal</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="PrimeForm.html"><span class="codenumber">33.3</span> <span class="title">Forma Prima</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="PrimeForm.html#ApplicationOfNF"><span class="codenumber">33.3.1</span> <span class="title">Application of Normal Form and Prime Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="PrimeForm.html#Segmentation"><span class="codenumber">33.3.2</span> <span class="title">Segmentation</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="IntervalVector.html"><span class="codenumber">33.4</span> <span class="title">Vetor Intervalar</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="ForteNumbers.html"><span class="codenumber">33.5</span> <span class="title">Numeros de Forte</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="ForteNumbers.html#ZRelations"><span class="codenumber">33.5.1</span> <span class="title">Z-Relations</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="ListsOfSetClasses.html"><span class="codenumber">33.6</span> <span class="title">Listas de Classes de Conjuntos</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="TranspositionTn.html"><span class="codenumber">33.7</span> <span class="title">Transposition (T<span class="process-math">\(\text{}_{n}\)</span>)</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="InversionTnI.html"><span class="codenumber">33.8</span> <span class="title">Inversion (T<span class="process-math">\(\text{}_{n}\)</span>I)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="InversionTnI.html#IdentifyingInversionallyRelatedSets"><span class="codenumber">33.8.1</span> <span class="title">Identifying T<span class="process-math">\(\text{}_{n}\)</span>I for Inversionally-Related Sets</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="Set-Theory-Practice-Exercises.html"><span class="codenumber">33.9</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a class="internal" href="Serialism.html"><span class="codenumber">34</span> <span class="title">Serialismo</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" href="TwelveToneTechnique.html"><span class="codenumber">34.1</span> <span class="title">Tecnica Dodecafonica</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="TwelveToneTechnique.html#RowForms"><span class="codenumber">34.1.1</span> <span class="title">Formas da Serie</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" href="TwelveToneTechnique.html#TranspositionNumbers"><span class="codenumber">34.1.2</span> <span class="title">Transposition Numbers</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="DeterminingRowForms.html"><span class="codenumber">34.2</span> <span class="title">Determinando Formas da Serie</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a class="internal" href="WritingRowForms.html"><span class="codenumber">34.3</span> <span class="title">Escrevendo Formas da Serie</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Serialism-6.html"><span class="codenumber">34.4</span> <span class="title">Matriz Dodecafonica</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="RowFormsInMusic.html"><span class="codenumber">34.5</span> <span class="title">Apresentacao das Formas da Serie na Musica</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="NonTwelveToneSerialism.html"><span class="codenumber">34.6</span> <span class="title">Serialismo Nao Dodecafonico</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" href="SerialismExercises.html"><span class="codenumber">34.7</span> <span class="title">Exercicios Praticos</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" href="Minimalism.html"><span class="codenumber">35</span> <span class="title">Minimalismo</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="AdditiveMinimalism.html"><span class="codenumber">35.1</span> <span class="title">Minimalismo Aditivo</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="PhaseShifting.html"><span class="codenumber">35.2</span> <span class="title">Defasagem</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" href="Minimalism-5.html"><span class="codenumber">35.3</span> <span class="title">Tarefas</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a class="internal" href="backmatter.html"><span class="title">Material Complementar</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-solutions"><div class="toc-title-box"><a class="internal" href="backmatter-2.html"><span class="codenumber">A</span> <span class="title">Respostas dos Exercicios Praticos</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a class="internal" href="appendix-gfdl.html"><span class="codenumber">B</span> <span class="title">Licenca de Documentacao Livre GNU</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a class="internal" href="backmatter-4.html"><span class="title">Indice</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a class="internal" href="backmatter-5.html"><span class="title">Colofao</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div class="ptx-content" id="ptx-content"><section class="section" id="WritingRowForms"><h2 class="heading hide-type">
+<span class="type">Secao</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">34.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Escrevendo Formas da Serie</span>
+</h2>
+<div class="para" id="WritingRowForms-2">To write specified row forms from a given prime form, write all four versions of the row: P, R, I, and RI. Then, simply transpose the specified row form to the correct pitch, remembering that P and I forms start on the pitch integer (P<span class="process-math">\(\text{}_{3}\)</span> and I<span class="process-math">\(\text{}_{3}\)</span> would begin on E♭, for example) while R and RI forms <em class="emphasis">end</em> on the pitch integer (R<span class="process-math">\(\text{}_{3}\)</span> and RI<span class="process-math">\(\text{}_{3}\)</span> would end on E♭).<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#WritingRowForms-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="WritingRowForms-3">To write I<span class="process-math">\(\text{}_{9}\)</span> and RI<span class="process-math">\(\text{}_{5}\)</span> if given P<span class="process-math">\(\text{}_{0}\)</span>:<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#WritingRowForms-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="decimal" id="WritingRowForms-4">
+<li id="WritingRowForms-4-1">
+<div class="para" id="WritingRowForms-4-1-1">Write all four row forms (P, R, I, RI).<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#WritingRowForms-4-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img alt="" class="contained" role="img" src="external/images/unit12/12-tone-basic-rows-w-row-forms.svg"/></div>
+<div class="autopermalink" data-description="Item 1"><a aria-label="Copy heading and permalink for Item 1" href="#WritingRowForms-4-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="WritingRowForms-4-2">
+<div class="para" id="WritingRowForms-4-2-1">Transpose the specified row form to the correct transposition level.<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#WritingRowForms-4-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<ol class="lower-alpha lower-alpha-level-1" id="WritingRowForms-4-2-2">
+<li id="WritingRowForms-4-2-2-1">
+<div class="para" id="WritingRowForms-4-2-2-1-1">In this example, transpose I<span class="process-math">\(\text{}_{0}\)</span> up 9 semitones (a major 6th) to begin on A (pitch class 9).<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#WritingRowForms-4-2-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img alt="" class="contained" role="img" src="external/images/unit12/12-tone-I9.svg"/></div>
+<div class="autopermalink" data-description="Item 2.a"><a aria-label="Copy heading and permalink for Item 2.a" href="#WritingRowForms-4-2-2-1" title="Copy heading and permalink for Item 2.a">🔗</a></div>
+</li>
+<li id="WritingRowForms-4-2-2-2">
+<div class="para" id="WritingRowForms-4-2-2-2-1">To write RI<span class="process-math">\(\text{}_{5}\)</span>, transpose RI<span class="process-math">\(\text{}_{0}\)</span> up 5 semitones (a perfect 4th) so the last note is F (pitch class 5).<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#WritingRowForms-4-2-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img alt="" class="contained" role="img" src="external/images/unit12/12-tone-RI5.svg"/></div>
+<div class="autopermalink" data-description="Item 2.b"><a aria-label="Copy heading and permalink for Item 2.b" href="#WritingRowForms-4-2-2-2" title="Copy heading and permalink for Item 2.b">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Item 2"><a aria-label="Copy heading and permalink for Item 2" href="#WritingRowForms-4-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Section 34.3: Writing Row Forms"><a aria-label="Copy heading and permalink for Section 34.3: Writing Row Forms" href="#WritingRowForms" title="Copy heading and permalink for Section 34.3: Writing Row Forms">🔗</a></div></section></div>
+<div class="ptx-content-footer" id="ptx-content-footer">
+<a class="previous-button button" href="DeterminingRowForms.html" title="Previous"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Top</span></a><a class="next-button button" href="Serialism-6.html" title="Next"><span class="name">Next</span><span aria-hidden="true" class="icon material-symbols-outlined"></span></a>
+</div></main>
+</div>
+<div class="ptx-page-footer" id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg height="100%" role="img" viewbox="338 3000 8772 6866" xmlns="http://www.w3.org/2000/svg"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path d="M 4724,9448 A 4660 4660  0  0  1  8598  9259" style="stroke-width:126;stroke-linecap:butt;"></path><path d="M 4488,9685 A 4228 4228  0  0  0   472  9732" style="stroke-width:174;stroke-linecap:butt;"></path><path d="M 4724,3590 A 4241 4241  0  0  1  8598  3496" style="stroke-width:126;stroke-linecap:butt;"></path><path d="M 850,3496  A 4241 4241  0  0  1  4724  3590" style="stroke-width:126;stroke-linecap:round;"></path><path d="M 850,9259  A 4507 4507  0  0  1  4724  9448" style="stroke-width:126;stroke-linecap:round;"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path d="M 4960,9685 A 4228 4228  0  0  1  8976  9732" style="stroke-width:174;stroke-linecap:butt;"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img alt="Runstone Academy logo" class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png"/></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img alt="MathJax logo" class="logo" src="https://www.mathjax.org/badge/badge-square-2.png"/></a>
+</div>
+<!--Start: Google Global Site Tag code--><!--*** DO NOT COPY ANOTHER PROJECT'S MAGIC NUMBERS/ID ***--><!--***           GET YOUR OWN FROM GOOGLE             ***-->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JWN02MJ0WF"></script><script>  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JWN02MJ0WF');
+</script><!--End: Google Global Site Tag code-->
+</body>
+</html>
