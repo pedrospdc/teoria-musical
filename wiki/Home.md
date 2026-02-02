@@ -4,55 +4,26 @@ Bem-vindo à tradução brasileira de **Music Theory for the 21st-Century Classr
 
 ## 📚 Sobre Este Material
 
-Este é um curso completo de teoria musical, abrangendo desde conceitos básicos até tópicos avançados como serialismo e minimalismo. O material é ideal para estudantes e professores de música.
+Curso completo de teoria musical em português brasileiro, desde conceitos básicos até tópicos avançados.
 
-## 🎵 Como Usar
+## 🎵 Como Navegar
 
-- Use a barra lateral para navegar pelos capítulos
-- Cada capítulo contém seções teóricas e exercícios práticos
-- As fórmulas musicais estão em notação LaTeX
-- Exemplos incluem obras de compositores clássicos e música popular
+Use a **barra lateral** para navegar pelos capítulos organizados por tema.
+
+**Iniciantes:** Comece por [Conceitos Básicos](Conceitos-Basicos)
 
 ## 📖 Estrutura do Curso
 
-### Parte I: Fundamentos (Capítulos 1-4)
-Conceitos básicos, escalas, e ritmo
-
-### Parte II: Harmonia Básica (Capítulos 5-9)
-Intervalos, tríades, algarismos romanos, acordes de sétima
-
-### Parte III: Melodia e Forma (Capítulos 10-15)
-Análise melódica, forma musical, texturas
-
-### Parte IV: Harmonia Avançada (Capítulos 16-23)
-Baixo cifrado, dominantes secundárias, modulação
-
-### Parte V: Forma e Estrutura (Capítulos 24-25)
-Formas binárias, ternárias, sonata e rondó
-
-### Parte VI: Condução de Vozes (Capítulos 26-30)
-Técnicas de condução de vozes e contraponto
-
-### Parte VII: Tópicos Especiais (Capítulos 31-35)
-Jazz, impressionismo, teoria dos conjuntos, serialismo, minimalismo
-
-## 🎼 Começar a Estudar
-
-**Iniciantes**: Comece pelo [Capítulo 1: Conceitos Básicos](BasicConcepts)
-
-**Revisão**: Use o [Índice Completo](_Sidebar) para encontrar tópicos específicos
-
-**Prática**: Cada capítulo tem exercícios práticos ao final
+- **Parte I**: Fundamentos (Cap. 1-4)
+- **Parte II**: Harmonia Básica (Cap. 5-9)
+- **Parte III**: Melodia e Forma (Cap. 10-15)
+- **Parte IV**: Harmonia Avançada (Cap. 16-23)
+- **Parte V**: Formas Musicais (Cap. 24-25)
+- **Parte VI**: Condução de Vozes (Cap. 26-30)
+- **Parte VII**: Tópicos Especiais (Cap. 31-35)
 
 ## 📝 Créditos
 
-- **Autor Original**: Robert Hutchinson
-- **Obra Original**: [Music Theory for the 21st-Century Classroom](https://musictheory.pugetsound.edu/mt21c/MusicTheory.html)
-- **Licença**: GNU Free Documentation License (GFDL)
-- **Tradução**: Este projeto é uma tradução não-oficial para português brasileiro
-
-## 🔗 Links Úteis
-
-- [Ver Mapeamento de Arquivos](https://github.com/pedrospdc/teoria-musical/blob/main/FILE_MAPPING.md)
-- [Repositório no GitHub](https://github.com/pedrospdc/teoria-musical)
-- [Reportar Erro de Tradução](https://github.com/pedrospdc/teoria-musical/issues)
+**Autor Original**: Robert Hutchinson
+**Licença**: GNU Free Documentation License
+**Repositório**: [github.com/pedrospdc/teoria-musical](https://github.com/pedrospdc/teoria-musical)

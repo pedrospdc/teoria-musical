@@ -4,185 +4,94 @@
 
 ---
 
-### Parte I: Fundamentos
+### Fundamentos
 
-**1. [Conceitos Básicos](BasicConcepts)**
-- [Altura](Pitch)
-- [Notação](Notation)
-- [Registros de Oitava](OctaveRegisters)
-- [Acidentes](Accidentals)
-- [Notas Enarmônicas](EnharmonicNotes)
+1. [Conceitos Básicos](Conceitos-Basicos)
+   - [Altura](Altura)
+   - [Notação](Notacao)
+   - [Registros de Oitava](Registros-de-Oitava)
+   - [Acidentes](Acidentes)
+   - [Notas Enarmônicas](Notas-Enarmonicas)
 
-**2. [Escalas Maiores](MajorScalesAndKeySignatures)**
-- [Semitons e Tons](HalfStepsAndWholeSteps)
-- [Escala Maior](TheMajorScale)
-- [Armaduras de Clave Maiores](MajorKeySignatures)
+2. [Escalas Maiores](Escalas-Maiores-e-Armaduras)
+   - [Semitons e Tons](Semitons-e-Tons)
+   - [Escala Maior](Escala-Maior)
 
-**3. [Escalas Menores](MinorScalesAndKeySignatures)**
-- [Escalas Menores](MinorScales)
-- [Armaduras Menores](MinorKeySignatures)
-- [Graus da Escala](ScaleDegreeNames)
+3. [Escalas Menores](Escalas-Menores-e-Armaduras)
+   - [Escalas Menores](Escalas-Menores)
+   - [Armaduras Menores](Armaduras-Menores)
+   - [Graus da Escala](Graus-da-Escala)
 
-**4. [Fundamentos de Ritmo](BasicsOfRhythm)**
-- [Fórmula de Compasso](TimeSignature)
-- [Figuras de Duração](DurationalSymbols)
-- [Pontos e Ligaduras](DotsAndTies)
-- [Métrica](meter)
-- [Quiálteras](Tuplets)
-
----
-
-### Parte II: Harmonia Básica
-
-**5. [Intervalos](Intervals)**
-- [Introdução](IntervalsIntroduction)
-- [Como Identificar](HowToIdentifyIntervals)
-- [Como Escrever](HowToWriteIntervals)
-- [Inversão](InversionOfIntervals)
-- [Aumentados e Diminutos](AugmentedAndDiminishedIntervals)
-
-**6. [Tríades](Triads)**
-- [Introdução](TriadsIntroduction)
-- [Símbolos](LeadSheetSymbols)
-- [Inversões](InvertedTriads)
-- [Análise](AnalyzingChords)
-
-**7. [Algarismos Romanos](RomanNumeralsAndCadences)**
-- [Símbolos](RomanNumeralChordSymbols)
-- [Acordes em Maior](DiatonicChordsInMajor)
-- [Acordes em Menor](DiatonicChordsInMinor)
-- [Cadências](cadences)
-
-**8. [Acordes de Sétima](SeventhChords)**
-- [Introdução](SeventhChordsIntroduction)
-- [Algarismos Romanos](RomanNumeralsOfDiatonicSeventhChords)
-
-**9. [Progressão Harmônica](HarmonicProgression)**
-- [Círculo das Quintas](CircleOfFifths)
-- [Ritmo Harmônico](HarmonicRhythm)
-- [Função Harmônica](HarmonicFunction)
+4. [Fundamentos de Ritmo](Fundamentos-de-Ritmo)
+   - [Fórmula de Compasso](Formula-de-Compasso)
+   - [Figuras de Duração](Figuras-de-Duracao)
+   - [Pontos e Ligaduras](Pontos-e-Ligaduras)
+   - [Métrica](Metrica)
+   - [Quiálteras](Quialteras)
 
 ---
 
-### Parte III: Melodia e Forma
+### Harmonia Básica
 
-**10. [Notas Estranhas](NonChordTones)**
-- [Introdução](NonChordTonesIntroduction)
-- [Notas de Passagem](PassingTones)
-- [Auxiliares](NeighborTones)
-- [Apogiatura](Appoggiatura)
-- [Suspensão](Suspension)
-
-**11. [Análise Melódica](MelodicAnalysis)**
-- [Motivo](MotiveSection)
-- [Alteração Melódica](MelodicAlteration)
-- [Frase](PhraseSection)
-
-**12. [Forma Popular](FormInPopularMusic)**
-- [Verso-Refrão](VerseChorusForm)
-- [AABA](AABAForm)
-- [Blues 12 Compassos](TwelveBarBlues)
-
-**13. [Frases](PhrasesInCombination)**
-- [Cadência Autêntica Perfeita](PerfectAuthenticCadence)
-- [Sentença](SentenceStructure)
-- [Período](PeriodForm)
-- [Período Duplo](DoublePeriodForm)
-
-**14. [Texturas](AccompanimentalTexture)**
-- [Coral](ChoraleTexture)
-- [Arpejadas](ArpeggiatedAccompaniments)
-- [Acordes em Bloco](BlockChordAccompaniments)
-
-**15. [Criando Contraste](CreatingContrast)**
+5. [Intervalos](Intervalos)
+6. [Tríades](Triades)
+7. [Algarismos Romanos](Algarismos-Romanos-e-Cadencias)
+   - [Cadências](Cadencias)
+8. [Acordes de Sétima](Acordes-de-Setima)
+9. [Progressão Harmônica](Progressao-Harmonica)
 
 ---
 
-### Parte IV: Harmonia Avançada
+### Melodia e Forma
 
-**16. [Baixo Cifrado](FiguredBass)**
-- [Contexto Histórico](FiguredBassHistoricalContext)
-- [Símbolos](FiguredBassInversionSymbols)
-- [Acorde Cadencial 6/4](TheCadentialSixFourChord)
+10. [Notas Estranhas](Notas-Estranhas)
+    - [Notas de Passagem](Notas-de-Passagem)
+    - [Notas Auxiliares](Notas-Auxiliares)
+    - [Suspensão](Suspensao)
+    - [Antecipação](Antecipacao)
 
-**17. [Dominantes Secundárias](SecondaryDominants)**
-- [Exemplos](ExamplesWithSecondaryDominants)
-- [Tonicização](Tonicization)
-- [Análise](AnalyzingSecondaryDominants)
-
-**18. [Diminutos Secundários](SecondaryDiminishedChords)**
-
-**19. [Mistura de Modos](ModeMixture)**
-
-**20. [Acorde Napolitano](Neapolitan)**
-
-**21. [Sextas Aumentadas](AugmentedSixthChords)**
-- [Tipos](TypesOfAugmentedSixthChords)
-- [Análise](AnalyzingAugmentedSixthChords)
-
-**22. [Modulação](Modulation)**
-- [Introdução](ModulationIntroduction)
-- [Acordes Pivô Diatônicos](ModulationsWithDiatonicPivotChords)
-- [Sem Pivô](ModulationsWithoutPivotChords)
-
-**23. [Modulação Enarmônica](EnharmonicModulation)**
+11. [Análise Melódica](Analise-Melodica)
+12. [Forma Popular](Forma-na-Musica-Popular)
+13. [Frases](Frases-em-Combinacao)
+14. [Texturas](Texturas-de-Acompanhamento)
+15. [Contraste](Criando-Contraste)
 
 ---
 
-### Parte V: Forma
+### Harmonia Avançada
 
-**24. [Formas Binárias e Ternárias](BinaryAndTernaryForms)**
-- [Binária Simples](SimpleBinary)
-- [Ternária](TernaryForm)
-
-**25. [Sonata e Rondó](SonataAndRondoForms)**
-- [Forma Sonata](SonataIntroduction)
-- [Forma Rondó](RondoForm)
-
----
-
-### Parte VI: Condução de Vozes
-
-**26. [Condução: Tríades](VoiceLeadingTriads)**
-- [Introdução](VoiceLeading)
-- [Tipos de Movimento](TypesOfMotion)
-- [Paralelas Objetáveis](ObjectionableParallels)
-
-**27. [Condução: Sétimas](VoiceLeadingSeventhChords)**
-
-**28. [Condução: Notas Estranhas](VoiceLeadingNCTs)**
-
-**29. [Condução: Cromático](VoiceLeadingChromaticHarmonies)**
-
-**30. [Contraponto](IntroductionToCounterpoint)**
-- [Espécies](SpeciesCounterpoint)
-- [Primeira Espécie](FirstSpecies)
-- [Fuga](FugueAnalysis)
+16. [Baixo Cifrado](Baixo-Cifrado)
+17. [Dominantes Secundárias](Dominantes-Secundarias)
+18. [Diminutos Secundários](Acordes-Diminutos-Secundarios)
+19. [Mistura de Modos](Mistura-de-Modos)
+20. [Napolitano](Acorde-Napolitano)
+21. [Sextas Aumentadas](Acordes-de-Sexta-Aumentada)
+22. [Modulação](Modulacao)
+23. [Modulação Enarmônica](Modulacao-Enarmonica)
 
 ---
 
-### Parte VII: Tópicos Especiais
+### Formas Musicais
 
-**31. [Teoria do Jazz](IntroductionToJazzTheory)**
-- [Acordes Jazz](JazzChordBasics)
-- [Voicings](JazzChordVoicings)
-- [Escalas](JazzScales)
-
-**32. [Impressionismo](ImpressionismAndExtendedTonality)**
-- [Pandiatonismo](Pandiatonicism)
-- [Acordes Quintais](QuintalHarmony)
-
-**33. [Teoria dos Conjuntos](SetTheory)**
-- [Forma Normal](NormalForm)
-- [Forma Prima](PrimeForm)
-
-**34. [Serialismo](Serialism)**
-- [Técnica Dodecafônica](TwelveToneTechnique)
-
-**35. [Minimalismo](Minimalism)**
-- [Minimalismo Aditivo](AdditiveMinimalism)
-- [Mudança de Fase](PhaseShifting)
+24. [Binárias e Ternárias](Formas-Binarias-e-Ternarias)
+25. [Sonata e Rondó](Formas-Sonata-e-Rondo)
 
 ---
 
-**[📋 Ver Todos os Capítulos](FILE_MAPPING)**
+### Condução de Vozes
+
+26. [Tríades](Conducao-de-Vozes-Triades)
+27. [Sétimas](Conducao-de-Vozes-Setimas)
+28. [Notas Estranhas](Conducao-de-Vozes-Notas-Estranhas)
+29. [Cromático](Conducao-de-Vozes-Cromatico)
+30. [Contraponto](Introducao-ao-Contraponto)
+
+---
+
+### Tópicos Especiais
+
+31. [Jazz](Introducao-a-Teoria-do-Jazz)
+32. [Impressionismo](Impressionismo-e-Tonalidade-Estendida)
+33. [Teoria dos Conjuntos](Teoria-dos-Conjuntos)
+34. [Serialismo](Serialismo)
+35. [Minimalismo](Minimalismo)
