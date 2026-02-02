@@ -2,27 +2,27 @@
 
 Bem-vindo à tradução brasileira de **Music Theory for the 21st-Century Classroom** de Robert Hutchinson.
 
-## 📚 Sobre Este Material
+## Sobre Este Material
 
 Curso completo de teoria musical em português brasileiro, desde conceitos básicos até tópicos avançados.
 
-## 🎵 Como Navegar
+## Como Navegar
 
-Use a **barra lateral** para navegar pelos capítulos organizados por tema.
+Use a barra lateral para navegar pelos capítulos organizados por tema.
 
-**Iniciantes:** Comece por [Conceitos Básicos](Conceitos-Basicos)
+Iniciantes devem começar por [Conceitos Básicos](Conceitos-Basicos)
 
-## 📖 Estrutura do Curso
+## Estrutura do Curso
 
-- **Parte I**: Fundamentos (Cap. 1-4)
-- **Parte II**: Harmonia Básica (Cap. 5-9)
-- **Parte III**: Melodia e Forma (Cap. 10-15)
-- **Parte IV**: Harmonia Avançada (Cap. 16-23)
-- **Parte V**: Formas Musicais (Cap. 24-25)
-- **Parte VI**: Condução de Vozes (Cap. 26-30)
-- **Parte VII**: Tópicos Especiais (Cap. 31-35)
+- Parte I: Fundamentos (Cap. 1-4)
+- Parte II: Harmonia Básica (Cap. 5-9)
+- Parte III: Melodia e Forma (Cap. 10-15)
+- Parte IV: Harmonia Avançada (Cap. 16-23)
+- Parte V: Formas Musicais (Cap. 24-25)
+- Parte VI: Condução de Vozes (Cap. 26-30)
+- Parte VII: Tópicos Especiais (Cap. 31-35)
 
-## 📝 Créditos
+## Créditos
 
 **Autor Original**: Robert Hutchinson
 **Licença**: GNU Free Documentation License

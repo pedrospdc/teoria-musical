@@ -100,16 +100,6 @@ A traducao utiliza a terminologia musical padrao em portugues brasileiro:
 | Voice Leading | Conducao de Vozes |
 | Counterpoint | Contraponto |
 
-## Como Usar
-
-Os arquivos traduzidos estão em **Markdown** na pasta `pt-br/`. Para visualizar:
-
-1. **Visualização local**: Use qualquer visualizador de Markdown ou GitHub
-2. **Índice principal**: Comece pelo [pt-br/README.md](pt-br/README.md)
-3. **Navegação**: Os links entre capítulos estão preservados
-
-**Nota:** Fórmulas matemáticas usam LaTeX (formato `\(...\)`) e podem requerer um renderizador apropriado.
-
 ## Workflow de Tradução
 
 Este projeto foi traduzido usando o seguinte processo:

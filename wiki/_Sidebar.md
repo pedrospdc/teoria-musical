@@ -1,6 +1,6 @@
-### 📚 Teoria Musical PT-BR
+### Teoria Musical PT-BR
 
-**[🏠 Início](Home)**
+**[Início](Home)**
 
 ---
 
