@@ -2,6 +2,8 @@
 
 Traducao para portugues brasileiro do livro "Music Theory for the 21st-Century Classroom" de Robert Hutchinson.
 
+## [Acesse o conteudo completo na Wiki](https://github.com/pedrospdc/teoria-musical/wiki)
+
 ## Sobre o Projeto
 
 Este repositorio contem a traducao completa do site de teoria musical originalmente disponivel em ingles em [musictheory.pugetsound.edu](https://musictheory.pugetsound.edu/mt21c/MusicTheory.html).
@@ -12,16 +14,16 @@ O objetivo e tornar este excelente material didatico acessivel para estudantes e
 
 ```
 teoria-musical/
-├── pt-br/                      # Markdown traduzido para portugues brasileiro ✓
 ├── markdown/                   # Markdown em ingles (extraido do HTML)
 ├── original/                   # HTML original em ingles (referencia)
 ├── scripts/                    # Scripts de conversao e traducao
-│   ├── convert_to_markdown.py  # HTML → Markdown (remove navegação)
-│   ├── translate_markdown.py   # Preparação para tradução
-│   └── [deprecated scripts]    # Scripts antigos (crawler, translator)
-├── venv/                       # Virtual environment Python
+│   ├── convert_to_markdown.py  # HTML → Markdown
+│   ├── download_external_files.py  # Download de imagens
+│   └── fix_latex_to_unicode.py     # Conversao LaTeX → Unicode
 └── FILE_MAPPING.md             # Mapeamento arquivo → título PT-BR
 ```
+
+O conteudo traduzido fica na [Wiki do repositorio](https://github.com/pedrospdc/teoria-musical/wiki), com 277 paginas e mais de 1100 imagens.
 
 ## Conteudo
 
@@ -102,26 +104,11 @@ A traducao utiliza a terminologia musical padrao em portugues brasileiro:
 
 ## Workflow de Tradução
 
-Este projeto foi traduzido usando o seguinte processo:
-
-### 1. Extração do Conteúdo (HTML → Markdown)
-```bash
-venv/bin/python scripts/convert_to_markdown.py all
-```
-- Remove navegação, menus, scripts
-- Preserva conteúdo principal, imagens, LaTeX
-- Salva em `markdown/`
-
-### 2. Tradução (Markdown EN → PT-BR)
-- Tradução automática com Claude
-- Preserva formatação, fórmulas matemáticas, links
-- Aplica terminologia musical brasileira
-- Salva em `pt-br/`
-
-### 3. Mapeamento de Arquivos
-- Nomes de arquivos mantidos em inglês (compatibilidade)
-- Títulos traduzidos para português
-- Ver [FILE_MAPPING.md](FILE_MAPPING.md) para correspondências
+1. **Extracao do HTML original** para Markdown (`scripts/convert_to_markdown.py`)
+2. **Download de imagens** do site original (`scripts/download_external_files.py`)
+3. **Conversao de LaTeX** para Unicode (`scripts/fix_latex_to_unicode.py`)
+4. **Traducao** do ingles para portugues brasileiro com Claude
+5. **Publicacao** na Wiki do GitHub
 
 ## Creditos
 
