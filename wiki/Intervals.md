@@ -1,0 +1,3 @@
+##  Capítulo 5 Intervalos
+
+In order to prepare for the study of tríades in the next chapter, we will focus primarily on major and minor seconds, thirds, and sixths, and perfect, diminished, and augmented fourths and fifths. We will leave discussion of augmented and diminished sixths and sevenths for the chapters on [Seventh Acordes](SeventhChords.html "Capítulo 8: Seventh Acordes") and [Augmented Sixth Acordes](AugmentedSixthChords.html "Capítulo 21: Augmented Sixth Acordes"). We will return to [Seção 5.5](AugmentedAndDiminishedIntervals.html "Seção 5.5: Augmented and Diminished Intervalos") at that time.
