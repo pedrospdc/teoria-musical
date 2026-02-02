@@ -12,13 +12,15 @@ O objetivo e tornar este excelente material didatico acessivel para estudantes e
 
 ```
 teoria-musical/
-├── pt-br/              # Paginas HTML traduzidas para portugues brasileiro
-├── original/           # Paginas HTML originais em ingles (referencia)
-├── scripts/            # Scripts utilizados para crawler e traducao
-│   ├── crawler.py      # Script para baixar paginas do site original
-│   ├── translator.py   # Script de traducao automatizada
-│   └── music_terms.py  # Dicionario de termos musicais EN->PT-BR
-└── assets/             # Recursos estaticos (imagens, CSS, JS)
+├── pt-br/                      # Markdown traduzido para portugues brasileiro ✓
+├── markdown/                   # Markdown em ingles (extraido do HTML)
+├── original/                   # HTML original em ingles (referencia)
+├── scripts/                    # Scripts de conversao e traducao
+│   ├── convert_to_markdown.py  # HTML → Markdown (remove navegação)
+│   ├── translate_markdown.py   # Preparação para tradução
+│   └── [deprecated scripts]    # Scripts antigos (crawler, translator)
+├── venv/                       # Virtual environment Python
+└── FILE_MAPPING.md             # Mapeamento arquivo → título PT-BR
 ```
 
 ## Conteudo
@@ -100,9 +102,36 @@ A traducao utiliza a terminologia musical padrao em portugues brasileiro:
 
 ## Como Usar
 
-Para visualizar o conteudo traduzido, abra os arquivos HTML na pasta `pt-br/` em um navegador web. A pagina principal e `TeoriaMusical.html`.
+Os arquivos traduzidos estão em **Markdown** na pasta `pt-br/`. Para visualizar:
 
-**Nota:** Algumas funcionalidades interativas podem requerer conexao com a internet para carregar recursos externos (MathJax para formulas, fontes, etc.).
+1. **Visualização local**: Use qualquer visualizador de Markdown ou GitHub
+2. **Índice principal**: Comece pelo [pt-br/README.md](pt-br/README.md)
+3. **Navegação**: Os links entre capítulos estão preservados
+
+**Nota:** Fórmulas matemáticas usam LaTeX (formato `\(...\)`) e podem requerer um renderizador apropriado.
+
+## Workflow de Tradução
+
+Este projeto foi traduzido usando o seguinte processo:
+
+### 1. Extração do Conteúdo (HTML → Markdown)
+```bash
+venv/bin/python scripts/convert_to_markdown.py all
+```
+- Remove navegação, menus, scripts
+- Preserva conteúdo principal, imagens, LaTeX
+- Salva em `markdown/`
+
+### 2. Tradução (Markdown EN → PT-BR)
+- Tradução automática com Claude
+- Preserva formatação, fórmulas matemáticas, links
+- Aplica terminologia musical brasileira
+- Salva em `pt-br/`
+
+### 3. Mapeamento de Arquivos
+- Nomes de arquivos mantidos em inglês (compatibilidade)
+- Títulos traduzidos para português
+- Ver [FILE_MAPPING.md](FILE_MAPPING.md) para correspondências
 
 ## Creditos
 

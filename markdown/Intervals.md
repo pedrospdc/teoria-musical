@@ -1,0 +1,3 @@
+##  Chapter 5 Intervals
+
+In order to prepare for the study of triads in the next chapter, we will focus primarily on major and minor seconds, thirds, and sixths, and perfect, diminished, and augmented fourths and fifths. We will leave discussion of augmented and diminished sixths and sevenths for the chapters on [Seventh Chords](SeventhChords.html "Chapter 8: Seventh Chords") and [Augmented Sixth Chords](AugmentedSixthChords.html "Chapter 21: Augmented Sixth Chords"). We will return to [Section 5.5](AugmentedAndDiminishedIntervals.html "Section 5.5: Augmented and Diminished Intervals") at that time.
